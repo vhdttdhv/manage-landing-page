@@ -1,0 +1,33 @@
+.point-wrapper {
+  width: 100%;
+}
+
+.point-header {
+  width: calc(100% + 1.2rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: var(--palePrimary);
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.point-index {
+  border-radius: 1rem;
+  background-color: var(--primary);
+  padding: 0.5rem 1.2rem;
+  color: white;
+}
+
+.point-title {
+  margin: auto 0;
+  padding-left: 0.7rem;
+}
+
+.point-text {
+  text-align: start;
+}
+/*# sourceMappingURL=Point.css.map */

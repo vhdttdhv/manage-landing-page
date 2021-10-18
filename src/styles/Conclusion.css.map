@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAClB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,cAAc;EAChC,OAAO,EAAE,WAAW;CACrB;;AACD,AAAA,yBAAyB,CAAC;EACxB,KAAK,EAAE,cAAc;EACrB,gBAAgB,EAAE,KAAK;CACxB",
+    "sources": [
+        "Conclusion.scss"
+    ],
+    "names": [],
+    "file": "Conclusion.css"
+}

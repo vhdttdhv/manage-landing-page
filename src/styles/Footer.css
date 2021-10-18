@@ -1,0 +1,61 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-mailing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin: 3em;
+  margin-left: 5em;
+  justify-items: start;
+}
+
+.footer-nav > * {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-nav > *:hover {
+  text-decoration: underline;
+}
+
+.footer-mailing-address {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 0.8em 3em 0.8em 1em;
+  color: black;
+  border-radius: 2em;
+}
+
+.footer-submit {
+  margin-top: 2rem;
+  background-color: var(--primary);
+  padding: 0.8em 1.5em;
+  border-radius: 2rem;
+  margin-left: 1em;
+}
+
+.footer-img {
+  color: white;
+}
+/*# sourceMappingURL=Footer.css.map */

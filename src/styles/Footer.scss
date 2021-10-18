@@ -1,0 +1,42 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer-mailing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin: 3em;
+  margin-left: 5em;
+  justify-items: start;
+}
+.footer-nav > * {
+  text-decoration: none;
+  color: white;
+}
+.footer-nav > *:hover {
+  text-decoration: underline;
+}
+.footer-mailing-address {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 0.8em 3em 0.8em 1em;
+  color: black;
+  border-radius: 2em;
+}
+.footer-submit {
+  margin-top: 2rem;
+  background-color: var(--primary);
+  padding: 0.8em 1.5em;
+  border-radius: 2rem;
+  margin-left: 1em;
+}
+.footer-img {
+  color: white;
+}

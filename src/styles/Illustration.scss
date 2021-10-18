@@ -1,0 +1,24 @@
+.illustration-wrapper {
+  padding: 0rem 1.2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.illustration-pic {
+  max-width: 100%;
+  object-fit: contain;
+}
+.illustration-pic > img {
+  max-width: 100%;
+}
+.illustration-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // break line
+  text-overflow: ellipsis;
+  max-width: 20em;
+}
+.illustration-text > h1 {
+  font-size: 2rem;
+}

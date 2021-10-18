@@ -1,0 +1,15 @@
+.button-wrapper {
+  width: 8em;
+  background-color: var(--primary);
+  border-radius: 2rem;
+  color: white;
+  padding: 1em;
+  margin: auto;
+}
+.button-invert {
+  color: var(--primary);
+  background-color: white;
+}
+.button-link {
+  text-decoration: none;
+}

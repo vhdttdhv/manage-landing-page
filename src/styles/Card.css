@@ -1,0 +1,10 @@
+.card-img {
+  width: 4rem;
+  margin-bottom: -2.2rem;
+}
+
+.card-content {
+  background-color: var(--lightGray);
+  padding: 3rem 1rem 2rem;
+}
+/*# sourceMappingURL=Card.css.map */
