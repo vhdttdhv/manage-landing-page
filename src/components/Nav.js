@@ -28,7 +28,9 @@ function Nav() {
             alt="nav hamburger"
           />
         </div>
-        <Button />
+        <div className="nav-button">
+          <Button />
+        </div>
       </div>
       {!isHam ? (
         <div
