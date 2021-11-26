@@ -1,7 +1,7 @@
 .illustration-wrapper {
   padding: 0rem 1.2rem;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 .illustration-pic {
@@ -24,4 +24,24 @@
 }
 
 @media (min-width: 700px) {
+  .illustration-wrapper {
+    padding: 0rem 10rem;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .illustration-text {
+    align-items: flex-start;
+
+    justify-content: start;
+    max-width: 25em;
+  }
+  .illustration-text > * {
+    padding-bottom: 2rem;
+  }
+  .illustration-text > h1 {
+    font-size: 2.5rem;
+    padding: 0 0 2rem 0;
+    margin-bottom: 0;
+    text-align: start;
+  }
 }

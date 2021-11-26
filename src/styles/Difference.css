@@ -1,8 +1,37 @@
 .difference-wrapper {
   padding: 0rem 1.2rem;
+  margin-top: 5rem;
 }
 
 .difference-point {
   width: 100%;
+}
+
+@media (min-width: 700px) {
+  .difference-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0rem 10rem;
+  }
+  .difference-point {
+    width: 60%;
+  }
+  .difference-text {
+    text-overflow: ellipsis;
+    max-width: 20em;
+    text-align: start;
+    margin-right: 5rem;
+  }
+  .difference-text > h2 {
+    margin-top: 0;
+  }
 }
 /*# sourceMappingURL=Difference.css.map */

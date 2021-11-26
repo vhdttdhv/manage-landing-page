@@ -37,6 +37,20 @@
   border-radius: 2rem;
   margin-left: 1em;
 }
-.footer-img {
-  color: white;
+@media (min-width: 700px) {
+  .footer-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .footer-nav {
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2rem;
+  }
+  .footer-mailing {
+    align-items: baseline;
+  }
+  .footer-img {
+    margin-top: 2rem;
+  }
 }
